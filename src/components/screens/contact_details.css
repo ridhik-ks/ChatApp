@@ -1,0 +1,322 @@
+div.contact_details{
+    background: #161B1C;
+    width: 100%;
+    border-left: 2px solid #252C2E;
+}
+div.contact_details div.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 85px;
+    margin-top: 15px;
+    border-bottom: 3px solid #252C2E;
+    padding: 0 20px;
+
+}
+div.contact_details div.header h1{
+    font-size: 22px;
+    color: #fff;
+}
+div.contact_details div.header img{
+    border: 2px solid #252C2E;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+div.contact_details div.profiles{
+    text-align: center;
+    margin-top: 15px;
+}
+div.contact_details div.profiles img{
+    width: 22%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+div.contact_details div.profiles h1{
+    color: #fff;
+    font-size: 20px;
+}
+div.contact_details div.profiles span{
+    color: #48A5C3;
+    font-size: 12px;
+}
+div.media{}
+div.media div.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 20px;
+    border-left: none;
+}
+div.media div.section div.left{
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+div.media div.section div.left h6{
+    color: #fff;
+    font-size: 20px;
+}
+div.media div.section div.left span{
+    color: #2c3436;
+    font-size: 12px;
+    margin-left: 10px;
+
+}
+div.media div.section div.right{}
+div.media div.section div.right p{
+    color: #48A5C3;
+    font-size: 13px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+div.media div.images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+    margin-top: 20px;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+div.media div.images img{
+    width: 75%;
+    height: 85px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+div.media div.images p{
+    color: #fff;
+    text-align: center;
+    border: 1px solid #252C2E;
+    width: 34%;
+    background: #252C2E;
+    border-radius: 15px;
+    padding: 34px 41px;
+    cursor: pointer;
+}
+div.files{}
+div.files div.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 20px;
+    border-left: none;
+}
+div.files div.section div.left{
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+div.files div.section div.left h6{
+    color: #fff;
+    font-size: 20px;
+}
+div.files div.section div.left span{
+    color: #2c3436;
+    font-size: 12px;
+    margin-left: 10px;
+}
+div.files div.section div.right{}
+div.files div.section div.right p{
+    color: #48A5C3;
+    font-size: 13px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+div.content{
+    padding: 0 60px;
+    margin-top: 20px;
+}
+div.content div.docs{
+    background: #252C2E;
+    padding: 10px 20px;
+    border-radius: 11px;
+    cursor: pointer;
+}
+div.content div.docs div.project{
+    display: flex;
+    justify-content: space-evenly;
+    background: #1e2628;
+    padding: 10px 1px;
+    border-radius: 10px;
+}
+div.content div.docs div.project img{
+    width: 21px;
+}
+div.content div.docs div.project p{
+    color: #fff;
+    font-size: 13px;
+}
+div.content div.docs div.context{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+div.content div.docs div.context div.left{}
+div.content div.docs div.context div.left p{
+    font-size: 10px;
+    color: #fff;
+}
+div.content div.docs div.context div.right p{
+    font-size: 10px;
+    color: #fff;
+
+}
+div.content div.time{}
+div.content div.time p{
+    font-size: 10px;
+    color: #1e2628;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 2px;
+}
+div.content:nth-child(2){
+    margin-top: 10px;
+}
+
+/* Mobile Devices */
+@media (max-width: 767px) {
+    div.contact_details div.header {
+      flex-direction: column;
+      justify-content: center;
+      height: auto;
+      margin-top: 10px;
+    }
+  
+    div.contact_details div.header h1 {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+  
+    div.contact_details div.header img {
+      margin-top: 10px;
+    }
+  
+    div.contact_details div.profiles {
+      margin-top: 10px;
+    }
+  
+    div.contact_details div.profiles img {
+      width: 60%;
+      margin-bottom: 10px;
+    }
+  
+    div.contact_details div.profiles h1 {
+      font-size: 16px;
+    }
+  
+    div.contact_details div.profiles span {
+      font-size: 10px;
+    }
+  
+    div.media div.section {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    div.media div.section div.left {
+      flex-direction: column;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    div.media div.section div.left h6 {
+      font-size: 16px;
+    }
+  
+    div.media div.section div.left span {
+      margin-left: 0;
+    }
+  
+    div.media div.images {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    div.media div.images img {
+      width: 100%;
+      height: auto;
+    }
+  
+    div.files div.section {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    div.files div.section div.left {
+      flex-direction: column;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    div.files div.section div.left h6 {
+      font-size: 16px;
+    }
+  
+    div.files div.section div.left span {
+      margin-left: 0;
+    }
+  
+    div.content div.docs {
+      padding: 10px;
+    }
+  
+    div.content div.docs div.project {
+      flex-direction: column;
+      align-items: center;
+      padding: 5px;
+    }
+  
+    div.content div.docs div.project img {
+      width: 18px;
+    }
+  
+    div.content div.docs div.project p {
+      font-size: 10px;
+    }
+  
+    div.content div.docs div.context {
+      flex-direction: column;
+      margin-top: 5px;
+    }
+  
+    div.content div.docs div.time p {
+      font-size: 10px;
+    }
+  }
+  
+
+  /* @media screen and (min-width: 320px) {
+    div.contact_details{
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 375px) {
+    div.contact_details{
+      display: none;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    div.contact_details{
+      display: block;
+    }
+  } */
+
+
+
+
+
+
+
+
+

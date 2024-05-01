@@ -1,0 +1,259 @@
+div.section{
+    width: 23%;
+    background-color: #161B1C;
+    border-left: 3px solid #252C2E;
+}
+div.container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 13%;
+    align-items: center;
+    margin-left: 10px;
+    border-bottom: 3px solid #252C2E;
+}
+div.account{
+    display: flex;
+}
+div.account img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+div.people ul li img{
+    width: 30px;
+    cursor: pointer;
+}
+div.name h6{
+    font-size: 18px;
+    color: #fff;
+}
+div.name span{
+    color: #fff;
+    font-size: 13px;
+}
+div.dot img{
+    border: 3px solid #252C2E;
+    border-radius: 50%;
+    padding: 4px;
+    cursor: pointer;
+}
+div.input input[type=text]{
+    padding: 12px 77px;
+    margin-left: 7px;
+    border-radius: 10px;
+    position: relative;
+    background: #252C2E;
+    margin-top: 20px;
+    border-style: none;
+}
+div.input input[type="text"]::placeholder {
+    text-align: left;
+    
+  }
+  div.input img{
+    position: absolute;
+    left: 130px;
+    top: 130px;
+  } 
+  div.online{
+    margin-left: -30px;
+  }
+  div.more{}
+  div.more ul{
+    display: flex;
+    justify-content: space-between;
+  }
+  div.more ul li{
+    margin-top: 12px;
+  }
+  div.more ul li.slv{
+    display: flex;
+  }
+  div.more ul li h6{
+    color: #fff;
+    font-size: 19px;
+  }
+  div.more ul li span{
+    color: #363a3b;
+    cursor: pointer;
+  }
+  div.more ul li img{
+    width: 15px;
+  }
+  div.people{
+    margin-top: 20px;
+  }
+  div.people ul{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  div.people ul li{
+    display: flex;
+    flex-direction: column;
+  }
+  div.people ul li img{
+    border-radius: 50%;
+    width: 50px;
+    margin-bottom: 2px;
+  }
+  div.people ul li span{
+    color: #363a3b;
+    font-size: 12px;
+    text-align: center;
+  }
+  div.messages{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  div.messages h6{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  div.messages span{
+    color: #fff;
+    padding: 2px 7px;
+    background: #48A5C3;
+    border-radius: 23px;
+    margin-left: 3px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 7px;
+  }
+div.info{
+  overflow-x: hidden;
+    gap: 0.8rem;
+    &::-webkit-scrollbar {
+        width: 0.2rem;
+        &::-ms-thumb{
+            background-color: #ffffff39;
+            width: 0.1rem;
+            border-radius: 1rem;
+        }
+    }
+}
+div.info div.section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  border-left: none;
+  cursor: pointer;
+}
+div.info div.section:hover{
+  background: #363a3b;
+}
+div.section img.pic{
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+div.names{
+  width: 82%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div.names div.left{
+  margin-left: 10px;
+
+}
+div.names div.left h6{
+  color: #fff;
+  font-size: 15px;
+
+}
+div.names div.left span{
+  color: #fff;
+  font-size: 10px;
+
+}
+div.names div.left span.typing{
+  color: #48A5C3;
+}
+div.names div.right{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+div.names div.right img{}
+div.names div.right span{
+  color: #363a3b;
+  font-size: 10px;
+}
+
+/* @media screen and (min-width: 320px) {
+  .section{
+    width: 100% !important; 
+  }
+  .input img{
+    display: none;
+  }
+  div.input input[type=text] {
+    width: 46%;
+  }
+  .info{
+
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .section{
+    width: 100% !important; 
+    height: 100%;
+  }
+  .input img{
+    display: none;
+  }
+  div.input input[type=text] {
+    padding: 16px 90px;
+    margin-left: 11px;
+  }
+  .info{
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .section{
+    width: 425px !important; 
+    height: 100%;
+  }
+  .input img{
+    display: none;
+  }
+  div.input input[type=text] {
+    padding: 16px 100px;
+    margin-left: 11px;
+  }
+  .info{
+    height: 100%;
+  }
+  .container{
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section{
+    width: 768px !important; 
+  }
+  div.input input[type=text] {
+    padding: 20px 192px;
+  }
+  .container{
+    margin-top: 14px;
+    height: 70px;
+  }
+}
+
+
+ */

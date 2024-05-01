@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 101.5vh;
+    width: 110px;
+    background-color: #161B1C;
+}
+div.message{
+    margin-left: 30px;
+}
+div.message img{
+    width: 30px;
+    border: 1px solid #48a5c3;
+    border-radius: 50%;
+    padding: 9px;
+    background-color: #fff;
+    cursor: pointer;
+}
+div.list img{
+    width: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+div.list img.chats{
+    width: 43px;
+}
+div.profile img{
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+div.profile img.plus{
+    width: 20px;
+    border: 1px solid #797a7c;
+    padding: 9px;
+    border-radius: 50%;
+    background-color: #797a7c;
+    cursor: pointer;
+}
+div.profile img.glass{
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* @media screen and (min-width: 320px) {
+    nav {
+      display: none;
+    }
+  }
+
+@media screen and (min-width: 375px) {
+    nav {
+      display: none;
+    }
+}  
+@media screen and (min-width: 375px) {
+    nav {
+      display: none;
+    }
+}   */

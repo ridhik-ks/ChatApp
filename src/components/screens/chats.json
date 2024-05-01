@@ -1,0 +1,54 @@
+{
+  "lists": [
+    {
+      "user_id": 1,
+      "name": "Pautra pratama",
+      "image": "../Assets/Profile (2).jpg",
+      "alt": "Profile1",
+      "message": "Hello, how are you?",
+      "time": "12:00 AM"
+    },
+    {
+      "user_id": 2,
+      "name": "Michael",
+      "image": "../Assets/Profile (3).jpg",
+      "alt": "Profile2",
+      "message": "typing...",
+      "time": "12:00 AM"
+    },
+    {
+      "user_id": 3,
+      "name": "Jarrow",
+      "image": "../Assets/Profile (4).jpg",
+      "alt": "Profile3",
+      "message": "good morning",
+      "time": "12:00 AM"
+    },
+    {
+      "user_id": 4,
+      "name": "Kasmad",
+      "image": "../Assets/Profile (5).jpg",
+      "alt": "Profile4",
+      "message": "Hello, how are you?",
+      "time": "12:00 AM"
+    },
+    {
+      "user_id": 5,
+      "name": "Melati",
+      "image": "../Assets/Profile (6).jpg",
+      "alt": "Profile5",
+      "message": "Hello, how are you?",
+      "time": "12:00 AM"
+    },
+    {
+      "user_id": 6,
+      "name": "Manwar",
+      "image": "../Assets/Profile (7).jpg",
+      "alt": "Profile6",
+      "message": "Hello, how are you?",
+      "time": "12:00 AM"
+    }
+  ]
+ 
+  
+}
